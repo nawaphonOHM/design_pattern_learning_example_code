@@ -1,4 +1,4 @@
-package creational.builder.abstruct_factory_application.third_person_implementation;
+package creational.builder.third_person_implementation;
 
 import creational.builder.abstruct_factory_application.implementations.House;
 import creational.builder.source.director.CivilEngineer;
