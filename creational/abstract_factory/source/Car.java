@@ -8,7 +8,6 @@ public abstract class Car extends Object{
     private CarType model;
     private Location location;
 
-    // Car's Constructor
     Car(CarType model, Location location){
         this.model = model;
         this.location = location;
