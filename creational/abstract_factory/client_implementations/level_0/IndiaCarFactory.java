@@ -1,9 +1,9 @@
 package creational.abstract_factory.client_implementations.level_0;
 
-import creational.abstract_factory.source.Car;
-import creational.abstract_factory.source.LuxuryCar;
-import creational.abstract_factory.source.MicroCar;
-import creational.abstract_factory.source.MiniCar;
+import creational.abstract_factory.source.implementations.LuxuryCar;
+import creational.abstract_factory.source.implementations.MicroCar;
+import creational.abstract_factory.source.implementations.MiniCar;
+import creational.abstract_factory.source.templates.Car;
 import creational.abstract_factory.state.CarType;
 import creational.abstract_factory.state.Location;
 

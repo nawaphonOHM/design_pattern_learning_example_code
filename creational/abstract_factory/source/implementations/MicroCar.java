@@ -1,5 +1,6 @@
-package creational.abstract_factory.source;
+package creational.abstract_factory.source.implementations;
 
+import creational.abstract_factory.source.templates.Car;
 import creational.abstract_factory.state.CarType;
 import creational.abstract_factory.state.Location;
 

@@ -1,4 +1,4 @@
-package creational.abstract_factory.source;
+package creational.abstract_factory.source.templates;
 
 import creational.abstract_factory.state.CarType;
 import creational.abstract_factory.state.Location;
@@ -8,12 +8,12 @@ public abstract class Car extends Object{
     private CarType model;
     private Location location;
 
-    Car(CarType model, Location location){
+    protected Car(CarType model, Location location){
         this.model = model;
         this.location = location;
     }
 
-    abstract void construct();
+    protected abstract void construct();
 
     CarType getModel(){
         return this.model;

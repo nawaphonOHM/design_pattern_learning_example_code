@@ -1,5 +1,6 @@
-package creational.abstract_factory.source;
+package creational.abstract_factory.source.implementations;
 
+import creational.abstract_factory.source.templates.Car;
 import creational.abstract_factory.state.CarType;
 import creational.abstract_factory.state.Location;
 
@@ -10,7 +11,7 @@ public class MiniCar extends Car {
     }
 
     @Override
-    void construct(){
+    protected void construct() {
         System.out.println("Connecting to Mini car");
     }
 }
