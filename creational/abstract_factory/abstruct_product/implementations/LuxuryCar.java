@@ -2,7 +2,6 @@ package creational.abstract_factory.abstruct_product.implementations;
 
 import creational.abstract_factory.abstruct_product.Car;
 import creational.abstract_factory.others.CarLevel;
-import javafx.application.Platform;
 
 public class LuxuryCar implements Car {
     final private String platform;
