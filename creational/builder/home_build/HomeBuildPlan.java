@@ -1,6 +1,6 @@
 package creational.builder.home_build;
 
-public interface BuildPlan {
+public interface HomeBuildPlan {
     public void buildBasement();
     public void buildStructure();
     public void buildRoof();
