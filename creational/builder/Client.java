@@ -1,4 +1,4 @@
-package creational.builder.client;
+package creational.builder;
 
 import creational.builder.director.CivilEngineer;
 import creational.builder.home_build.implementations.NormalSize;
