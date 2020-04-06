@@ -4,7 +4,7 @@ import creational.factory_method.others.Wheeler;
 import creational.factory_method.product.Vehicle;
 import creational.factory_method.product.implementations.FourWheeler;
 
-public abstract class Creatable {
+public abstract class CreatableRequirement {
     abstract protected Vehicle buildVehicleByWheeler(Wheeler wheelerAmount);
 
     public Vehicle buildVehicle(){
