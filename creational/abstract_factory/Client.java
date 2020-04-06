@@ -14,16 +14,16 @@ public class Client {
         System.out.println("This is Car Product from usa!");
         carFactory = new UsaCarFactory();
         carProduct = carFactory.getCar();
-        System.out.println(carProduct.getDescrption());
+        System.out.println(carProduct.getPlatform());
 
         System.out.println("This is Car Product from india!");
         carFactory = new IndiaCarFactory();
         carProduct = carFactory.getCar();
-        System.out.println(carProduct.getDescrption());
+        System.out.println(carProduct.getPlatform());
 
         System.out.println("This is Car Product from Thailand!");
         carFactory = new ThaiCarFactory();
         carProduct = carFactory.getCar();
-        System.out.println(carProduct.getDescrption());
+        System.out.println(carProduct.getPlatform());
     }
 }
