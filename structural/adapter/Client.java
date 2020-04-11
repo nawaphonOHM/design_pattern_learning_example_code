@@ -10,6 +10,7 @@ public class Client {
         final Sparrow sparrow = new Sparrow();
         final ToyDuck toyDuck = new PlasticToyDuck();
         
+        //Hey, I want Toy Duck can squeak like birds, could you do it? 
         final ToyDuck birdAdapter = new BirdAdapter(sparrow);
 
         System.out.println("Sparrow");
