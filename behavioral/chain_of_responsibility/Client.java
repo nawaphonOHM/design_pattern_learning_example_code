@@ -16,5 +16,7 @@ public class Client {
         processesChain.process(-50);
         processesChain.process(0);
         processesChain.process(91);
+        processesChain.process(Integer.MAX_VALUE);
+        processesChain.process(Integer.MIN_VALUE);
     }
 }
