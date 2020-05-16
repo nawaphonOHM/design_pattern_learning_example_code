@@ -7,19 +7,20 @@ import behavioral.interpreter.terminal_expression.TerminalExpression;
 
 public class Client {
     public static void main(String[] args){
-        final Expression person1 = new TerminalExpression("Kushagra");
-        final Expression person2 = new TerminalExpression("Lokesh");
-        final Expression isSingle = new OrExpression(person1, person2);
+        final Expression person1 = new TerminalExpression("Hello");
+        final Expression person2 = new TerminalExpression("Test");
+        final Expression hasEither = new OrExpression(person1, person2);
 
-        final Expression vikram = new TerminalExpression("Vikram");
-        final Expression committed = new TerminalExpression("Committed");
-        final Expression isCommited = new AndExpression(vikram, committed);
+        System.out.println(hasEither.interpreter("xyz"));
+        System.out.println(hasEither.interpreter("Hello"));
+        System.out.println(hasEither.interpreter("Test"));
+        System.out.println(hasEither.interpreter("Tes"));
 
-        System.out.println(isSingle.interpreter("Kushagra"));
-        System.out.println(isSingle.interpreter("Lokesh"));
-        System.out.println(isSingle.interpreter("Achint"));
+        final Expression space = new TerminalExpression("");
+        final Expression nul = new TerminalExpression("NULL");
+        final Expression hasSubset = new AndExpression(space, nul);
 
-        System.out.println(isCommited.interpreter("Committed, Vikram"));
-        System.out.println(isCommited.interpreter("Single, Vikram"));
+        System.out.println(hasSubset.interpreter("NULL"));
+        System.out.println(hasSubset.interpreter(""));
     }
 }
