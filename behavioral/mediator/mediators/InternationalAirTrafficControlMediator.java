@@ -1,7 +1,7 @@
 package behavioral.mediator.mediators;
 
-import behavioral.mediator.concrete_colleagues.Flight;
-import behavioral.mediator.concrete_colleagues.Runway;
+import behavioral.mediator.colleagues.implementations.Flight;
+import behavioral.mediator.colleagues.implementations.Runway;
 
 public interface InternationalAirTrafficControlMediator {
     public void registerRunway(Runway runway);

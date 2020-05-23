@@ -1,10 +1,10 @@
-package behavioral.iterator.concrete_agregates;
+package behavioral.iterator.aggregates.implementations;
 
 import java.util.Date;
 
 import behavioral.iterator.aggregates.Collection;
-import behavioral.iterator.concrete_iterators.NotificationIterator;
 import behavioral.iterator.iterators.Iterator;
+import behavioral.iterator.iterators.implementations.NotificationIterator;
 import behavioral.iterator.types.Notification;
 import behavioral.iterator.types.implementations.NormalNotification;
 

@@ -1,7 +1,7 @@
-package behavioral.mediator.concrete_mediators;
+package behavioral.mediator.mediators.implementations;
 
-import behavioral.mediator.concrete_colleagues.Flight;
-import behavioral.mediator.concrete_colleagues.Runway;
+import behavioral.mediator.colleagues.implementations.Flight;
+import behavioral.mediator.colleagues.implementations.Runway;
 import behavioral.mediator.mediators.InternationalAirTrafficControlMediator;
 
 public class AirTrafficControlMediator implements InternationalAirTrafficControlMediator{

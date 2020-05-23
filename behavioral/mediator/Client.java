@@ -1,9 +1,9 @@
 package behavioral.mediator;
 
-import behavioral.mediator.concrete_colleagues.Flight;
-import behavioral.mediator.concrete_colleagues.Runway;
-import behavioral.mediator.concrete_mediators.AirTrafficControlMediator;
+import behavioral.mediator.colleagues.implementations.Flight;
+import behavioral.mediator.colleagues.implementations.Runway;
 import behavioral.mediator.mediators.InternationalAirTrafficControlMediator;
+import behavioral.mediator.mediators.implementations.AirTrafficControlMediator;
 
 public class Client {
     public static void main(String args[]){

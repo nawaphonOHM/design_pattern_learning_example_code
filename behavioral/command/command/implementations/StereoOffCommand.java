@@ -1,4 +1,4 @@
-package behavioral.command.concrete_command;
+package behavioral.command.command.implementations;
 
 import behavioral.command.command.Command;
 import behavioral.command.receiver.Stereo;

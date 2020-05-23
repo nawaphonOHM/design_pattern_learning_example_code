@@ -1,4 +1,4 @@
-package behavioral.interpreter.terminal_expression;
+package behavioral.interpreter.abstract_expression.implementations.terminal_expression;
 
 import behavioral.interpreter.abstract_expression.Expression;
 

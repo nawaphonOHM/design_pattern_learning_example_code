@@ -1,9 +1,9 @@
 package behavioral.command;
 
-import behavioral.command.concrete_command.LightOffCommand;
-import behavioral.command.concrete_command.LightOnCommand;
-import behavioral.command.concrete_command.StereoOffCommand;
-import behavioral.command.concrete_command.StereoOnWithCDCommand;
+import behavioral.command.command.implementations.LightOffCommand;
+import behavioral.command.command.implementations.LightOnCommand;
+import behavioral.command.command.implementations.StereoOffCommand;
+import behavioral.command.command.implementations.StereoOnWithCDCommand;
 import behavioral.command.invoker.SimpleRemoteControl;
 import behavioral.command.receiver.Light;
 import behavioral.command.receiver.Stereo;

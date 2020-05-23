@@ -1,6 +1,6 @@
 package behavioral.iterator;
 
-import behavioral.iterator.concrete_agregates.NotificationCollection;
+import behavioral.iterator.aggregates.implementations.NotificationCollection;
 import behavioral.iterator.iterators.Iterator;
 import behavioral.iterator.types.implementations.NormalNotification;
 

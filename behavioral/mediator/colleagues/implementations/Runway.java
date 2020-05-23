@@ -1,4 +1,4 @@
-package behavioral.mediator.concrete_colleagues;
+package behavioral.mediator.colleagues.implementations;
 
 import behavioral.mediator.colleagues.Command;
 import behavioral.mediator.mediators.InternationalAirTrafficControlMediator;

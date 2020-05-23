@@ -1,9 +1,9 @@
 package behavioral.chain_of_responsibility;
 
-import behavioral.chain_of_responsibility.concreate_handler.NegativeProcessor;
-import behavioral.chain_of_responsibility.concreate_handler.PositiveProcessor;
-import behavioral.chain_of_responsibility.concreate_handler.ZeroProcessor;
 import behavioral.chain_of_responsibility.handler.Processor;
+import behavioral.chain_of_responsibility.handler.implementations.NegativeProcessor;
+import behavioral.chain_of_responsibility.handler.implementations.PositiveProcessor;
+import behavioral.chain_of_responsibility.handler.implementations.ZeroProcessor;
 
 public class Client {
 

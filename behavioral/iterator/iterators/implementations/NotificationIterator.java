@@ -1,4 +1,4 @@
-package behavioral.iterator.concrete_iterators;
+package behavioral.iterator.iterators.implementations;
 
 import behavioral.iterator.iterators.Iterator;
 import behavioral.iterator.types.Notification;

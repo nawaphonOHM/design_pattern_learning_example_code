@@ -1,4 +1,4 @@
-package behavioral.chain_of_responsibility.concreate_handler;
+package behavioral.chain_of_responsibility.handler.implementations;
 
 import behavioral.chain_of_responsibility.handler.Processor;
 

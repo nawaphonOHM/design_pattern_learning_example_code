@@ -1,9 +1,9 @@
 package behavioral.interpreter;
 
 import behavioral.interpreter.abstract_expression.Expression;
-import behavioral.interpreter.non_terminal_expression.AndExpression;
-import behavioral.interpreter.non_terminal_expression.OrExpression;
-import behavioral.interpreter.terminal_expression.TerminalExpression;
+import behavioral.interpreter.abstract_expression.implementations.non_terminal_expression.AndExpression;
+import behavioral.interpreter.abstract_expression.implementations.non_terminal_expression.OrExpression;
+import behavioral.interpreter.abstract_expression.implementations.terminal_expression.TerminalExpression;
 
 public class Client {
     public static void main(String[] args){
