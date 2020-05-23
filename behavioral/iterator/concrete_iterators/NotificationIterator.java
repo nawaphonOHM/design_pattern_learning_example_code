@@ -13,8 +13,8 @@ public class NotificationIterator implements Iterator {
 
     @Override
     public boolean hasNext() {
-        return this.position < notifications.length && 
-            notifications[position] != null;
+        return this.position < this.notifications.length && 
+            this.notifications[this.position] != null;
     }
 
     @Override
