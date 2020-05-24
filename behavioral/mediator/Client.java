@@ -15,11 +15,10 @@ public class Client {
         atcMediator.registerFlight(spaarrow101);
         atcMediator.registerRunway(mainRunway);
 
-        System.out.println("Speaking for myself!");
         spaarrow101.getReady();
-        System.out.println("Let's ask to avaliable runway for landing!");
+
         mainRunway.land();
-        System.out.println("Speaking for myself!");
+        
         spaarrow101.land();
     }
 }
