@@ -1,6 +1,6 @@
-package behavioral.observer_pattern.subject;
+package behavioral.observer.subject;
 
-import behavioral.observer_pattern.observer.Observer;
+import behavioral.observer.observer.Observer;
 
 public interface Subject {
     public void attach(Observer observer);

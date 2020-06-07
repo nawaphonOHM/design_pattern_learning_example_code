@@ -1,10 +1,10 @@
-package behavioral.observer_pattern;
+package behavioral.observer;
 
 import java.util.Random;
 
-import behavioral.observer_pattern.observer.concrete_observers.AverageScoreDisplay;
-import behavioral.observer_pattern.observer.concrete_observers.CurrentScoreDisplay;
-import behavioral.observer_pattern.subject.concrete_subjects.CricketData;
+import behavioral.observer.observer.concrete_observers.AverageScoreDisplay;
+import behavioral.observer.observer.concrete_observers.CurrentScoreDisplay;
+import behavioral.observer.subject.concrete_subjects.CricketData;
 
 public class Client {
     public static void main(String args[]){

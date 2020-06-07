@@ -1,4 +1,4 @@
-package behavioral.observer_pattern.others;
+package behavioral.observer.others;
 
 import java.util.Random;
 

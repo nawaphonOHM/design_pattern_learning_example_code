@@ -1,7 +1,7 @@
-package behavioral.observer_pattern.observer.concrete_observers;
+package behavioral.observer.observer.concrete_observers;
 
-import behavioral.observer_pattern.observer.Observer;
-import behavioral.observer_pattern.others.板球;
+import behavioral.observer.observer.Observer;
+import behavioral.observer.others.板球;
 
 public class AverageScoreDisplay implements Observer {
     private float runRate;

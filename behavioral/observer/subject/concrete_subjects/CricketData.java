@@ -1,11 +1,11 @@
-package behavioral.observer_pattern.subject.concrete_subjects;
+package behavioral.observer.subject.concrete_subjects;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import behavioral.observer_pattern.observer.Observer;
-import behavioral.observer_pattern.others.板球;
-import behavioral.observer_pattern.subject.Subject;
+import behavioral.observer.observer.Observer;
+import behavioral.observer.others.板球;
+import behavioral.observer.subject.Subject;
 
 public class CricketData implements Subject {
     final 板球 cricket;
