@@ -25,7 +25,7 @@ public class Client {
             }
 
         } catch(InterruptedException exception) {
-            System.out.println("There was an interruption is " + exception.getMessage());
+            System.out.println("There was an interruption: " + exception.getMessage());
         }
     }
 }
